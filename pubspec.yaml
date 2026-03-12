@@ -1,0 +1,65 @@
+name: capital_pro
+description: "App de gestión financiera para prestamistas en Guatemala"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Estado global
+  flutter_riverpod: ^2.4.0
+
+  # Navegación
+  go_router: ^12.0.0
+
+  # Base de datos local
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Hash SHA-256 para passwords
+  crypto: ^3.0.3
+
+  # Sesión de usuario
+  shared_preferences: ^2.2.0
+
+  # IDs únicos
+  uuid: ^4.2.0
+
+  # Fechas y números
+  intl: ^0.18.1
+
+  # Tipografía
+  google_fonts: ^6.1.0
+
+  # Fotos de clientes
+  image_picker: ^1.0.7
+
+  # Abrir WhatsApp
+  url_launcher: ^6.2.5
+
+  # Generar reportes PDF
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+  # Gráficas
+  fl_chart: ^0.66.0
+
+  # FAB con múltiples opciones
+  flutter_speed_dial: ^7.0.0
+
+  # Compartir archivos
+  share_plus: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
